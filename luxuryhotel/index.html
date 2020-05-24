@@ -1,0 +1,243 @@
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js">
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <script type='text/javascript' src='/js/mousescroll.js'></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+            
+            overflow-x: hidden;
+            scroll-snap-type: y proximity;
+            overflow-y: scroll;
+        }
+
+        .navbar {
+            margin-top: 0;
+            margin-bottom: 0.1%;
+            margin-right: auto;
+            margin-left: auto;
+            padding-top: 0.1%;
+            padding-right: 1%;
+            padding-bottom: 0.1%;
+            padding-left: 1%;
+            
+        }
+        
+
+        .container-fluid {
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+
+            margin-right: 0;
+            margin-left: 0;
+
+        }
+        
+        body {
+            background-color: #fafafa;
+        }
+    </style>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-light navbar-dark fixed-top justify-content-between blue-gradient">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#main">Your Luxury Hotel</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#main">General</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rooms">Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        More
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Area</a>
+                        <a class="dropdown-item" href="#">Restaurant</a>
+                        <a class="dropdown-item" href="#">About us</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</head>
+
+<body>
+    <!--Main -->
+    <div class="row margs" id="scroll-down">
+        <div class="col">
+
+            <div class="container-fluid">
+                <div id="main" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#main" data-slide-to="0" class="active"></li>
+                        <li data-target="#main" data-slide-to="1"></li>
+                        <li data-target="#main" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner" style="height:940px; width:auto">
+                        <div class="carousel-item active view">
+                            <img class="img-fluid" src="images/main r.png" alt="Los Angeles">
+                            <div class="mask flex-center waves-effect waves-light rgba-black-strong smltyx">
+                                <p class="display-3 text-white">Amazing Views</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item view">
+                            <img class="img-fluid" src="images/main2.jpg" alt="Chicago">
+                            <div class="mask flex-center waves-effect waves-light rgba-black-strong smlty ">
+                                <p class="display-3 center text-white">Luxury Rooms</p>
+                              </div>
+                        </div>
+                        <div class="carousel-item view">
+                            <img class="img-fluid" src="images/main3.jpg" alt="New York">
+                            <div class="mask flex-center waves-effect waves-light rgba-black-strong smlty">
+                                <p class="display-3 text-white">Best prices</p>
+                              </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#main" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#main" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Rooms -->
+    <div class="row margs">
+        <div class="col">
+            <div class="container-fluid">
+                <div id="rooms" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#rooms" data-slide-to="0" class="active"></li>
+                        <li data-target="#rooms" data-slide-to="1"></li>
+                        <li data-target="#rooms" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner" style="height:940px; width:auto">
+                        <div class="carousel-item active view">
+                            <img class="img-fluid" src="images/room3.jpg" alt="Basic">
+                            
+                        </div>
+                        <div class="carousel-item view">
+                            <img class="img-fluid" src="images/room1.jpg" alt="Modern">
+                            
+                        </div>
+                        <div class="carousel-item view">
+                            <img class="img-fluid" src="images/room2.jpg" alt="Queen">
+                            
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev " href="#rooms" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        
+                    </a>
+                    <a class="carousel-control-next" href="#rooms" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--Pricing -->
+    <div class="row margs"  style="height:950px; width:auto" id="pricing">
+        <div class="col-lg-4 col-md-6 mb-3">
+            <div class="container-fluid ">
+                <div class="hover hover-5 text-white rounded">
+                    <img class="img-fluid h-100 cover xxd" src="images/room3.jpg" alt="Basic">
+                    <div class="hover-overlay"></div>
+                    <div class="hover-5-content">
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Basic <strong
+                            class="font-weight-bold text-white">Apartament </strong><span>Classy</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+            <div class="container-fluid ">
+                <div class="hover hover-5 text-white rounded">
+                    <img class="img-fluid h-100 cover xxd" src="images/room1.jpg" alt="Modern">
+                    <div class="hover-overlay"></div>
+                    <div class="hover-5-content">
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Modern <strong
+                                class="font-weight-bold text-white">Apartament </strong><span>Fresh</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-3">
+            <div class="container-fluid ">
+                <div class="hover hover-5 text-white rounded">
+                    <img class="img-fluid h-100 cover xxd" src="images/room2.jpg" alt="Queen">
+                    <div class="hover-overlay"></div>
+                    <div class="hover-5-content">
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Queen <strong
+                                class="font-weight-bold text-white">Apartament </strong><span>Pure Luxury</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
