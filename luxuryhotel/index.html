@@ -9,7 +9,8 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
 
@@ -19,8 +20,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
     </script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js">
     </script>
@@ -28,12 +29,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <script type='text/javascript' src='/js/mousescroll.js'></script>
-
+    <link href="css/style.css" rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
-
             overflow-x: hidden;
             scroll-snap-type: y proximity;
             overflow-y: scroll;
@@ -125,22 +124,13 @@
         <!--Navbar-->
         <nav class="navbar navbar-light white lighten-4 fixed-top m-0">
             <!-- Collapse button -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                aria-label="Toggle navigation" style="padding-right:1vw;padding-left:1vw;"><span class="dark-blue-text"><i
-                        class="fas fa-bars fa-1x"></i></span></button>
-
-
-            <a class="navbar-brand font-size text-center" href="#" style="font-size:2vw; padding-right:1vw;padding-left:5vw;">Luxury Hotel</a>
-
-            <!-- Navbar brand -->
-
-            <a class="navbar-brand border rounded-pill" style="padding-left:1vw; padding-right:1vw; font-size:1vw"
-                href="#">Reservation</a>
-
-            <!-- button reservation-->
-
-
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" style="padding-right:1vw;padding-left:1vw;">
+                <span class="dark-blue-text">
+                    <i class="fas fa-bars fa-1x"></i>
+                </span>
+            </button>        
+            <a class="navbar-brand font-size" href="#" style="font-size:2vw; padding-left:3.5vw;">Luxury Hotel</a>
+            <a class="navbar-brand" href="#" style="padding-right:1vw;"><img src="images/lux.png" height="35vh";></a>
 
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent1">
@@ -154,7 +144,13 @@
                         <a class="nav-link" href="#Features">Features</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -172,7 +168,7 @@
                 <div class="row">
                     <p class="text-white text-wrap" style="width:50vw;">
 
-                        <p class=" text-justify-left  title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;" href="#pricing">Because it is meant to rest</p>
+                        <p class=" text-justify-left  title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;">Because it is meant to rest</p>
                         <p class=" text-justify-left title texxt" style="padding-left: 5vw; padding-right: 5vw; " href="#pricing">The most luxurious hotel in CA</p>
                     </p>
                 </div>
@@ -186,8 +182,10 @@
                 <div class="row">
                     <p class="display-3 text-white text-wrap">
 
-                        <p class="center text-justify-left  text-white title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;" href="#pricing">Because it is meant to rest</p>
-                        <p class="center text-justify-left  text-white title texxt" style="padding-left: 5vw; padding-right: 5vw;"  href="#pricing">The most luxurious hotel in CA</p>
+                        <p class="center text-justify-left  text-white title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;">Give yourself a break</p>
+                        <p class="center text-justify-left  text-white title texxt" style="padding-left: 5vw; padding-right: 5vw;">Book now </p>
+                        <p class="center text-justify-left  text-white title texxt" style="padding-left: 5vw; padding-right: 5vw;">+12 345 67 89</p>
+                        
                     </p>
                 </div>
                 
@@ -196,7 +194,7 @@
             
         </div>
     </div>
-    <div class="row m-0" style="background-color:white; height:50vw;" id="Features"  >
+    <div class="row m-0" style="background-color:white; height:100vh; width: 100vw;" id="Features"  >
         <div class="col" style="padding-left:0vw; padding-right: 0vw;width:50vw;">
 
             <div class="container-fluid">
@@ -210,20 +208,20 @@
                     </ul>
 
                     <!-- The slideshow -->
-                    <div class="carousel-inner" style="height:50vw; width:50vw;">
-                        <div class="carousel-item active view" >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active view" onmouseover="opiniefocus()" onmouseout="opiniefocus()">
                             <img class="img-fluid cover h-100" src="images/main r.png" alt="Los Angeles">
                             <div class="mask flex-center waves-effect waves-light rgba-black smltyx">
                                 <p class="display-3 text-white title"></p>
                             </div>
                         </div>
-                        <div class="carousel-item view">
+                        <div class="carousel-item view" onmouseover="opiniefocus()" onmouseout="opiniefocus()">
                             <img class="img-fluid cover h-100" src="images/main2.jpg" alt="Chicago">
                             <div class="mask flex-center waves-effect waves-light rgba-black smlty ">
                                 <p class="display-3 center text-white title"></p>
                             </div>
                         </div>
-                        <div class="carousel-item view">
+                        <div class="carousel-item view" onmouseover="opiniefocus()" onmouseout="opiniefocus()">
                             <img class="img-fluid cover h-100" src="images/main3.jpg" alt="New York">
                             <div class="mask flex-center waves-effect waves-light rgba-black smlty">
                                 <p class="display-3 text-white title">
@@ -250,9 +248,8 @@
             <div class="mask flex-center waves-effect waves-light rgba-black smlty" style=" color:#A3D6D4;padding-left: 2vw; padding-right: 2vw;">
                 <div class="row">
                     <p class="display-3 text-wrap">
-
-                        <p class="center text-justify-left  title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;"  href="#pricing">Because it is meant to rest</p>
-                        <p class="center text-justify-left title texxt" style="padding-left: 5vw; padding-right: 5vw;"   href="#pricing">The most luxurious hotel in CA</p>
+                        <p class="center text-justify-left  title texxt font-weight-bold " style="padding-left: 5vw; padding-right: 5vw;"  href="#pricing">Amazing rooms with beautiful view</p>
+                        <p class="center text-justify-left title texxt" style="padding-left: 5vw; padding-right: 5vw;"   href="#pricing">24/7 staff available</p>
                     </p>
                 </div>
                 
@@ -263,8 +260,8 @@
     </div>
 
     <!--Rooms -->
-    <div class="row margs">
-        <div class="col">
+    <div class="row margs" id="rooms"  style="width:100vw; padding-left:0vw; margin-right:0; padding-right: 0vw;">
+        <div class="col" style="padding-left:0; padding-right:0;">
             <div class="container-fluid">
                 <div id="rooms" class="carousel slide" data-ride="carousel">
 
@@ -276,17 +273,17 @@
                     </ul>
 
                     <!-- The slideshow -->
-                    <div class="carousel-inner" style="height:50vw; width:auto">
+                    <div class="carousel-inner karuzela">
                         <div class="carousel-item active view">
-                            <img class="img-fluid" src="images/room3.jpg" alt="Basic">
+                            <img class="img-fluid" style="height:100vh;width:100vw" src="images/room3.jpg" alt="Basic">
 
                         </div>
                         <div class="carousel-item view">
-                            <img class="img-fluid" src="images/room1.jpg" alt="Modern">
+                            <img class="img-fluid" style="height:100vh;width:100vw" src="images/room1.jpg" alt="Modern">
 
                         </div>
                         <div class="carousel-item view">
-                            <img class="img-fluid" src="images/room2.jpg" alt="Queen">
+                            <img class="img-fluid" style="height:100vh;width:100vw" src="images/room2.jpg" alt="Queen">
 
                         </div>
                     </div>
@@ -309,46 +306,160 @@
 
 
     <!--Pricing -->
-    <div class="row margs" style="height:50vw; width:100vw; padding-right:0; padding-left:0;" id="pricing">
-        <div class="col-lg-4 col-md-6 sm-12">
+    <div class="row margs" style="height:100vh; width:100vw; padding-right:0; padding-left:0;" id="pricing">
+        <div class="col pokoj" style="padding-left:0;">
             <div class="container-fluid ">
                 <div class="hover hover-5 text-white rounded">
                     <img class="img-fluid h-100 cover xxd" src="images/room3.jpg" alt="Basic">
                     <div class="hover-overlay"></div>
                     <div class="hover-5-content">
-                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Basic 
-                            <strong class="font-weight-bold text-white">Apartament </strong><span>Classy</span>
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0" style="font-size:3vh">
+                            <div class="priceroom">From 199$ per night</div>
+                            Basic 
+                            <strong class="font-weight-bold text-white">Apartment </strong><span>Classy</span>
                         </h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 sm-12">
+        <div class="col pokoj">
             <div class="container-fluid ">
                 <div class="hover hover-5 text-white rounded">
                     <img class="img-fluid h-100 cover xxd" src="images/room1.jpg" alt="Modern">
                     <div class="hover-overlay"></div>
                     <div class="hover-5-content">
-                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">Modern 
-                            <strong class="font-weight-bold text-white"> Apartament </strong><span>Fresh</span>
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0" style="font-size:3vh">
+                            <div class="priceroom">From 399$ per night</div>
+                            Modern 
+                            <strong class="font-weight-bold text-white"> Apartment </strong><span>Fresh</span>
                         </h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 sm-12">
+        <div class="col pokoj" style="padding-right:0;">
             <div class="container-fluid ">
                 <div class="hover hover-5 text-white rounded">
                     <img class="img-fluid h-100 cover xxd" src="images/room2.jpg" alt="Queen">
                     <div class="hover-overlay"></div>
                     <div class="hover-5-content">
-                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0">
+                        <h3 class="hover-5-title text-uppercase font-weight-light mb-0" style="font-size:3vh">
+                            <div class="priceroom">From 799$ per night</div>
                             Queen 
-                            <strong class="font-weight-bold title text-white">Apartament </strong><span>Pure Luxury</span>
+                            <strong class="font-weight-bold text-white">Apartment </strong><span>Pure Luxury</span>
                         </h3>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+   <!--about us -->
+    <div class="row rowprop" id="about">
+
+        <div class="col colprop proponas" style="max-height:100vh; height:100vh;">
+
+
+
+            <div class="tab-content zakladki" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <p class="text-center" style="font-size:10vh">About us</p> 
+
+                        <p class="text-center" style="margin-top:5vh; " >
+                            Luxury is one of the best rated hotels in the America. We offer extraordinary rooms with beautiful view over see, and 24/7 staff help for your command.
+                            <br><u>Why should you book in our hotel?</u>
+                        </p>
+                        
+                        <p style="margin-top:1vh; width:100vw; left:50vw; " >
+                            
+                            <ul class="list-unstyled listazalet">
+                                <li>Luxurious rooms</li>
+                                <li>Amazing views</li>
+                                <li>Silence</li>
+                                <li>And we also have
+                                    <ul>
+                                        <li>Swimming pools</li>
+                                        <li>Fitness center</li>
+                                        <li>Airport connection</li>
+                                        <li>Spa</li>
+                                    </ul>
+                                </li>
+                                <li>We can get you almost anything you ask</li>
+                               
+                                
+                            </ul>
+                        
+                        </p>
+                        
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        
+                        <p class="text-center" style="font-size:10vh">Rules</p> 
+
+                        <p class="text-center" style="margin-top:5vh;" >
+                            Our rules:                        
+                        </p>
+                        <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 " style="max-width: 90vw; left:0vw; max-height: 40vh;">                  
+                            <p style="margin-top:1vh;" >
+                                <p id="regulamin" class="">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed elementum tempus egestas sed. Urna nunc id cursus metus. Maecenas volutpat blandit aliquam etiam. Neque viverra justo nec ultrices dui sapien. Mauris a diam maecenas sed. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Morbi tristique senectus et netus et malesuada fames. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Eget arcu dictum varius duis at. Felis imperdiet proin fermentum leo vel orci porta. Dictum non consectetur a erat. Quis commodo odio aenean sed adipiscing. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Est ullamcorper eget nulla facilisi etiam.
+
+In massa tempor nec feugiat nisl pretium. Turpis in eu mi bibendum neque egestas congue quisque. Aliquam ut porttitor leo a diam sollicitudin tempor. Pretium quam vulputate dignissim suspendisse in. Bibendum arcu vitae elementum curabitur. Hac habitasse platea dictumst quisque sagittis purus. Est placerat in egestas erat. Ac tortor vitae purus faucibus. Sed felis eget velit aliquet sagittis id consectetur purus. Odio facilisis mauris sit amet massa vitae. Ac tortor dignissim convallis aenean. Posuere morbi leo urna molestie. Faucibus interdum posuere lorem ipsum dolor. Feugiat scelerisque varius morbi enim nunc faucibus a. Platea dictumst quisque sagittis purus sit. Sollicitudin nibh sit amet commodo nulla facilisi nullam.
+
+                                </p>
+                            </p>
+                        </div>
+                        
+
+                </div>
+            
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">                   
+                    <p class="text-center" style="font-size:10vh">Contact</p>  
+                    <div class="row">
+                        <div class="col-xl-6 col-sm-12">
+                            <div class="mapa" >
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1656.0031770196238!2d-118.21669073822838!3d33.88949019684804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cb3c7509933f%3A0xe6235f4d2f0e7161!2sGrove%20Street!5e0!3m2!1spl!2spl!4v1610537609187!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </div>                      
+                        <div class="col-md-6 col-sm-12">
+                            <div class="kontaktyrozne" style='color:white;'>          
+                                <div>
+                                    <img src="images/phone.png" height="40vh" >
+                                    <span style="font-weight:bold;  padding-top:1vh;"> +12 345 67 89</span>   
+                                </div>               
+                                <div>
+                                    <img src="images/mail.png" height="40vh" >
+                                    <span style="font-weight: bold; padding-top:1vh;">  luxuryhotel@youremail.com</span>
+                                </div>
+                                <div>
+                                    <img src="images/gps.png" height="40vh">
+                                    <span style="font-weight: bold; padding-top:1vh;">  Los Santos, CA</span>
+                                </div>                   
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+            
+            <ul class="nav nav-pills nav-justified mb-3 zakladkiswitch" id="pills-tab" role="tablist" style="bottom:1vw;position:absolute; width:100vw;">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">About us</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Booking rules</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                </li>
+            </ul>
+              
+
+            
+
         </div>
     </div>
 
